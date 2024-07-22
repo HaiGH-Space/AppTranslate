@@ -95,4 +95,8 @@ public class MainApp extends JFrame {
         btnStartTrans.setEnabled(true);
     }
 
+    public static void main(String[] args) {
+        new MainApp();
+    }
+
 }
